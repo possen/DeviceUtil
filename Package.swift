@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "DeviceUtil",
             dependencies: []),
-//            publicHeadersPath: "DeviceUtil"),
+            publicHeadersPath: "DeviceUtil/include"),
         .testTarget(
             name: "DeviceUtilTests",
             dependencies: ["DeviceUtil"]),
