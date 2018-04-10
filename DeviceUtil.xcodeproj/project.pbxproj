@@ -28,14 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		95FE02B0207D4350001908BB /* PBXContainerItemProxy */ = {
+		950C2D89207D5F8100D7AB3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "DeviceUtil::DeviceUtil";
 			remoteInfo = DeviceUtil;
 		};
-		95FE02B1207D4350001908BB /* PBXContainerItemProxy */ = {
+		950C2D8A207D5F8100D7AB3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -46,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		"DeviceUtil::DeviceUtil::Product" /* DeviceUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DeviceUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"DeviceUtil::DeviceUtilTests::Product" /* DeviceUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = DeviceUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DeviceUtil::DeviceUtilTests::Product" /* DeviceUtilTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeviceUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_11 /* DeviceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
 		OBJ_12 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/possenb/Projects/DeviceUtil/DeviceUtil.xcodeproj/GeneratedModuleMap/DeviceUtil/module.modulemap; sourceTree = "<group>"; };
 		OBJ_15 /* DeviceUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtilTests.swift; sourceTree = "<group>"; };
@@ -194,11 +194,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					"DeviceUtil::DeviceUtilTests" = {
-						DevelopmentTeam = M692V378M5;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "DeviceUtil" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -251,12 +246,12 @@
 		OBJ_33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "DeviceUtil::DeviceUtil" /* DeviceUtil */;
-			targetProxy = 95FE02B0207D4350001908BB /* PBXContainerItemProxy */;
+			targetProxy = 950C2D89207D5F8100D7AB3C /* PBXContainerItemProxy */;
 		};
 		OBJ_45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "DeviceUtil::DeviceUtilTests" /* DeviceUtilTests */;
-			targetProxy = 95FE02B1207D4350001908BB /* PBXContainerItemProxy */;
+			targetProxy = 950C2D8A207D5F8100D7AB3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -282,8 +277,6 @@
 		OBJ_27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = M692V378M5;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,8 +299,6 @@
 		OBJ_28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = M692V378M5;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,9 +343,7 @@
 		OBJ_36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -379,9 +368,7 @@
 		OBJ_37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

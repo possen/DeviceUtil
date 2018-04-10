@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreGraphics/CoreGraphics.h>
 
 typedef NS_ENUM(NSUInteger, Hardware) {
   NOT_AVAILABLE,
