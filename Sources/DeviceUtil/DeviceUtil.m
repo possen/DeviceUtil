@@ -379,7 +379,7 @@ NSString* const x86_64_Sim  = @"x86_64";
       NSLog(@"Your device is: %@", [self hardwareDescription]);
       break;
   }
-  return CGSizeZero;
+  return CGSizeMake(0, 0);
 }
 
 + (void)logMessage:(NSString *)hardware {
