@@ -1,0 +1,4 @@
+module DeviceUtil {
+    umbrella header "/Users/possenb/Projects/DeviceUtil/Sources/DeviceUtil/include/DeviceUtil.h"
+    export *
+}
