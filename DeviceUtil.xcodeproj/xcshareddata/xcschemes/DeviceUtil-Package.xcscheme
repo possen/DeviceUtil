@@ -29,16 +29,6 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DeviceUtil::DeviceUtilTests"
-               BuildableName = "DeviceUtilTests.xctest"
-               BlueprintName = "DeviceUtilTests"
-               ReferencedContainer = "container:DeviceUtil.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>

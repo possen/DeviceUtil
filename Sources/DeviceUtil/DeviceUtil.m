@@ -7,7 +7,7 @@
 //  Hardware string can be found @http://www.everymac.com
 //
 
-#import "DeviceUtil.h"
+#include "include/DeviceUtil.h"
 #include <sys/sysctl.h>
 
 /**
